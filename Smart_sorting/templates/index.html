@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NutriGaze</title>
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            /* Background with overlay */
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url("static/images/indexbackground.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .container {
+            padding: 120px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 40px;
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 45px;
+            color: #00ff88;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 12px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 25px;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #1e7e34;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div style="background-color:#2e8b57; padding:15px; text-align:right;">
+        <a href="/" style="color:white; margin:0 20px; text-decoration:none; font-weight:bold;">Home</a>
+        <a href="/about" style="color:white; margin:0 20px; text-decoration:none; font-weight:bold;">About</a>
+        <a href="/inspect" style="color:white; margin:0 20px; text-decoration:none; font-weight:bold;">Predict</a>
+    </div>
+
+
+    <div class="container">
+        <h1>NUTRIGAZE</h1>
+        <h2>FRESHNESS DETECTION</h2>
+        <p>Ensuring your fruits and vegetables are fresh and healthy.</p>
+
+        <a href="/inspect">
+            <button>Get Started</button>
+        </a>
+    </div>
+
+</body>
+</html>
